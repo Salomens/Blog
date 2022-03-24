@@ -53,7 +53,7 @@ jobs:
       uses: docker://peaceiris/gh-pages:v2
       env:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
+        PUBLISH_BRANCH: pages
         PUBLISH_DIR: ./dist
       with:
         emptyCommits: false
