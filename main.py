@@ -9,11 +9,12 @@ from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
 MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
+My personal blog using issues & GitHub Actions and Maverick .
+![my site](https://blog.ilxyz.cn/logo.jpg)
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
-BACKUP_DIR = "SRC"
+BACKUP_DIR = "src"
 ANCHOR_NUMBER = 5
 TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
@@ -271,23 +272,24 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     # save md files to backup folder
     for issue in to_generate_issues:
         save_issue(issue, me, dir_name)
-
-
+    
+    
 def save_issue(issue, me, dir_name=BACKUP_DIR):
     time = format_time(issue.created_at.strftime('%Y-%m-%dT%H:%M'))
     md_name = os.path.join(
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
-        f.write(f"---nlayout: postntitle: {issue.title}nslug: {issue.title}ndate: {time} 08:00nstatus: publishnauthor: Lesliencategories: n  - stand ntags:n  - stand n  - stand nexcerpt: n---nn")
+        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title}\ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories: \n  - stand \ntags:\n  - stand \n  - stand \nexcerpt: \n---\n\n")
        
         f.write(issue.body)
         if issue.comments:
             for c in issue.get_comments():
                 if is_me(c, me):
-                    f.write("nn---nn")
+                    f.write("\n\n---\n\n")
                     f.write(c.body)
-        f.write(f"nn[{issue.title}]({issue.html_url})nn")    
+        f.write(f"\n\n[{issue.title}]({issue.html_url})\n\n")           
+            
 
 
 if __name__ == "__main__":
