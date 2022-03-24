@@ -1,6 +1,4 @@
 ## Gitblog
-My personal blog using issues & GitHub Actions and Maverick .
-![my site](https://blog.ilxyz.cn/logo.jpg)
 [RSS Feed](https://raw.githubusercontent.com/Salomens/Blog-With-GitHub-Boilerplate/master/feed.xml)
 ## 友情链接
 | Name | Link | Desc | 
