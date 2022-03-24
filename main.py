@@ -280,15 +280,15 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
-        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title}\ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories: \n  - stand \ntags:\n  - stand \n  - stand \nexcerpt: \n---\n\n")
+        f.write(f"---nlayout: postntitle: {issue.title}nslug: {issue.title}ndate: {time} 08:00nstatus: publishnauthor: Lesliencategories: n  - stand ntags:n  - stand n  - stand nexcerpt: n---nn")
        
         f.write(issue.body)
         if issue.comments:
             for c in issue.get_comments():
                 if is_me(c, me):
-                    f.write("\n\n---\n\n")
+                    f.write("nn---nn")
                     f.write(c.body)
-        f.write(f"\n\n[{issue.title}]({issue.html_url})\n\n")           
+        f.write(f"nn[{issue.title}]({issue.html_url})nn")          
             
 
 
