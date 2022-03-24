@@ -7,5 +7,5 @@ My personal blog using issues & GitHub Actions and Maverick .
  | ---- | ---- | ---- |
 ## 最近更新
 - [Hello](https://github.com/Salomens/Blog-With-GitHub-Boilerplate/issues/1)--2022-03-24
-## Hello World
+## test
 - [Hello](https://github.com/Salomens/Blog-With-GitHub-Boilerplate/issues/1)--2022-03-24
