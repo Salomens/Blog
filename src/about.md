@@ -2,7 +2,7 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2022/03/24 17:26:00
 status: publish
 author: AlanDecode
 categories: 
@@ -17,6 +17,5 @@ tags:
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
+Email: shiyi0637@gmail.com
 
-Telegram：[AlanDecode](https://t.me/alandecode)
