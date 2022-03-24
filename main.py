@@ -9,8 +9,6 @@ from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
 MD_HEAD = """## Gitblog
-My personal blog using issues & GitHub Actions and Maverick .
-![my site](https://blog.ilxyz.cn/logo.jpg)
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
@@ -279,7 +277,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
-        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title}\ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories: \n  - stand \ntags:\n  - stand \n  - stand \nexcerpt: \n---\n\n")
+        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title}\ndate: {time} 08:00\nstatus: publish\nauthor: shiyi\ncategories: \n  - stand \ntags:\n  - stand \n  - stand \nexcerpt: \n---\n\n")
        
         f.write(issue.body)
         if issue.comments:
