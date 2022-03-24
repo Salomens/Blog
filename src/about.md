@@ -4,7 +4,7 @@ title: 关于
 slug: about
 date: 2022/03/24 17:26:00
 status: publish
-author: AlanDecode
+author: shiyi
 categories: 
   - Maverick
   - Dev
