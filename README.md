@@ -1,182 +1,323 @@
-# Blog-With-GitHub-Boilerplate
+## Gitblog
+My personal blog using issues and GitHub Actions (随意转载，无需署名)
+[RSS Feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
+## 友情链接
+| Name | Link | Desc | 
+ | ---- | ---- | ---- |
+| 兔子鮮笙 | https://tuzi.moe | 20 岁的天才少年 |
+| FriendsA | https://blog.duanfei.org/ | 跑步的朋友 |
+| daya0576 | https://changchen.me/ | 喜欢 python 的大牙 |
+| kenlai | https://kenlai.me/ | 网络前辈 |
+| Frost Ming | https://frostming.com/ | 醉后不知天在水，满船清梦压星河 |
+| ChrAlpha | https://ichr.me/ | 你唯有拼尽全力，才能显得毫不费力 |
+| 古思为 | https://siwei.io/ | I build things with magic and scale the magic to help people. |
+| 二愣的闲谈杂鱼 | https://godruoyi.com | 生活总是这样，不能让人处处都满意，但我们还要热情地生活下去。 |
+| 彭宏豪的个人博客 | https://penghh.fun | 我的 Hexo 博客，分享一些软件或电脑的使用技巧 |
+| Yu Jinyan | https://blog.yujinyan.me/ | Web, JVM, Android. Kotlin enthusiast. |
+| Leeyom's Blog | https://blog.leeyom.top | 用于记录一些幼稚的想法和脑残的瞬间 |
+| chaomai's blog | https://chaomai.github.io/ | A repository for the things I’ve learnt, built, and wasted time on. |
+| linw1995's blog | https://linw1995.com/ | 三分热度三分收获 |
+| 蒋继发 (Thaddeus Jiang) | https://thaddeusjiang.com/welcome.html | 在日本开发 SaaS 产品，Love OSS |
+## 置顶文章
+- [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
+- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
+- [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
+- [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
+- [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
+- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
+- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
+- [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
+- [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
+- [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
+- [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
+- [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
+- [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
+## 最近更新
+- [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
+- [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
+- [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
+- [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
+- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
+## 2019
+- [2019最后一天，不是总结的总结](https://github.com/yihong0618/gitblog/issues/97)--2019-12-31
+- [2019年11月总结及12月计划](https://github.com/yihong0618/gitblog/issues/85)--2019-12-02
+- [最近的工作，生活，学习，以及其它](https://github.com/yihong0618/gitblog/issues/82)--2019-11-22
+- [2019年10月总结11月计划](https://github.com/yihong0618/gitblog/issues/72)--2019-11-01
+- [2019年剩下的不多了](https://github.com/yihong0618/gitblog/issues/49)--2019-10-04
+<details><summary>显示更多</summary>
 
-> 💡 注意：这不是所谓使用 Maverick 的「标准方法」，只不过是利用 Maverick 与 GitHub Actions 写博客一个流程而已。不要觉得非得这样不可。Maverick 的用法见 [README.md](https://github.com/AlanDecode/Maverick)。
+- [2019九月总结及十月计划](https://github.com/yihong0618/gitblog/issues/44)--2019-10-02
+- [九月计划及八月总结](https://github.com/yihong0618/gitblog/issues/29)--2019-09-01
+- [七月总结和八月计划](https://github.com/yihong0618/gitblog/issues/14)--2019-08-01
+</details>
 
-这是博客文章[《完全用 GitHub 写博客》](https://blog.imalan.cn/archives/blog-with-github/)所提出方法的示例仓库。你可以将这个仓库 fork 到自己的账户下（点击右上角的 Fork 按钮），然后按照本文档余下的内容操作一遍，就知道该如何使用了。
+## 2020
+- [2020 年 10 月总结 11 月计划 ](https://github.com/yihong0618/gitblog/issues/194)--2020-11-04
+- [写在 0x20 岁之前](https://github.com/yihong0618/gitblog/issues/193)--2020-10-26
+- [2020 年 9 月总结 10 月计划](https://github.com/yihong0618/gitblog/issues/190)--2020-10-05
+- [2020年八月总结九月月展望](https://github.com/yihong0618/gitblog/issues/182)--2020-08-31
+- [跑步网站做完了，昨天跑了20km, 下一个做什么呢？](https://github.com/yihong0618/gitblog/issues/175)--2020-08-17
+<details><summary>显示更多</summary>
 
-> Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate
+- [番茄工作法，焦虑，咖啡，喘不上气，生活](https://github.com/yihong0618/gitblog/issues/173)--2020-08-10
+- [2020年七月总结八月展望](https://github.com/yihong0618/gitblog/issues/171)--2020-08-01
+- [新的计划，新的开始，戒掉社交网络](https://github.com/yihong0618/gitblog/issues/160)--2020-05-29
+- [新的计划，新的开始，学日语](https://github.com/yihong0618/gitblog/issues/159)--2020-05-29
+- [新的计划，新的开始，再一次减肥。](https://github.com/yihong0618/gitblog/issues/154)--2020-05-09
+- [2020四月总结五月计划](https://github.com/yihong0618/gitblog/issues/152)--2020-05-03
+- [四月过去了，五月来了](https://github.com/yihong0618/gitblog/issues/151)--2020-05-01
+- [下周一开始减肥，轮回](https://github.com/yihong0618/gitblog/issues/149)--2020-04-18
+- [一口气看完一本书的感觉好爽](https://github.com/yihong0618/gitblog/issues/146)--2020-04-04
+- [3月总结及4月展望](https://github.com/yihong0618/gitblog/issues/145)--2020-04-01
+- [新的一周，新的一个月](https://github.com/yihong0618/gitblog/issues/144)--2020-03-30
+- [删了微博](https://github.com/yihong0618/gitblog/issues/142)--2020-03-21
+- [日语学习](https://github.com/yihong0618/gitblog/issues/141)--2020-03-20
+- [来了。](https://github.com/yihong0618/gitblog/issues/140)--2020-03-18
+- [迁移测试](https://github.com/yihong0618/gitblog/issues/139)--2020-03-17
+- [美股熔断了](https://github.com/yihong0618/gitblog/issues/135)--2020-03-16
+- [挺没劲的](https://github.com/yihong0618/gitblog/issues/131)--2020-03-10
+- [快31岁了，又胖了](https://github.com/yihong0618/gitblog/issues/130)--2020-03-09
+- [二月总结及三月展望](https://github.com/yihong0618/gitblog/issues/127)--2020-03-02
+- [新的开始](https://github.com/yihong0618/gitblog/issues/123)--2020-02-24
+- [不能再这样下去了](https://github.com/yihong0618/gitblog/issues/121)--2020-02-22
+- [不刷，冷静下来。](https://github.com/yihong0618/gitblog/issues/114)--2020-02-17
+- [看到一张图，说点什么。](https://github.com/yihong0618/gitblog/issues/110)--2020-02-08
+- [焦虑](https://github.com/yihong0618/gitblog/issues/109)--2020-02-03
+- [2020 年 1 月总结 2 月展望就一个，这个操蛋的肺炎快点过去](https://github.com/yihong0618/gitblog/issues/108)--2020-02-01
+- [过年好](https://github.com/yihong0618/gitblog/issues/105)--2020-01-24
+- [第100篇，又到了0点](https://github.com/yihong0618/gitblog/issues/100)--2020-01-12
+- [2020就这么来了](https://github.com/yihong0618/gitblog/issues/98)--2020-01-01
+</details>
 
-## 第一步：为仓库开启 Pages 服务
+## 2021
+- [生存守则](https://github.com/yihong0618/gitblog/issues/204)--2021-01-27
+- [今年的三个小目标](https://github.com/yihong0618/gitblog/issues/202)--2021-01-14
+- [二零二一开始](https://github.com/yihong0618/gitblog/issues/200)--2021-01-04
+## 2022
+- [二零二二的三个小目标](https://github.com/yihong0618/gitblog/issues/229)--2022-01-07
+## 一些计划
+- [把running page 变得通用必须提上日程了](https://github.com/yihong0618/gitblog/issues/187)--2020-09-17
+- [月跑 250 km计划](https://github.com/yihong0618/gitblog/issues/184)--2020-09-01
+- [自律，悔恨，逝去的日子，成长](https://github.com/yihong0618/gitblog/issues/174)--2020-08-12
+- [近期程序上的安排](https://github.com/yihong0618/gitblog/issues/168)--2020-07-06
+- [把事情做完，做一件事，爬也要爬完](https://github.com/yihong0618/gitblog/issues/167)--2020-06-23
+<details><summary>显示更多</summary>
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218153736217.png)
+- [跑步数据找到同步方法了](https://github.com/yihong0618/gitblog/issues/164)--2020-06-06
+- [从今天起](https://github.com/yihong0618/gitblog/issues/126)--2020-03-01
+- [是时候开一个新坑了，跑步数据展示？](https://github.com/yihong0618/gitblog/issues/116)--2020-02-19
+- [10月程序上的计划](https://github.com/yihong0618/gitblog/issues/59)--2019-10-07
+- [点子合集](https://github.com/yihong0618/gitblog/issues/51)--2019-10-04
+- [搞定收藏夹](https://github.com/yihong0618/gitblog/issues/5)--2019-07-22
+</details>
 
-进入 Fork 的仓库，点击右上角这个 Settings 按钮，找到 GitHub Pages 相关设置：
+## 一些记录
+- [运交华盖与何求](https://github.com/yihong0618/gitblog/issues/231)--2022-03-03
+- [参加了《开源面对面》和《ByteTalk》播客的一些记录](https://github.com/yihong0618/gitblog/issues/223)--2021-11-26
+- [张小龙的饭否](https://github.com/yihong0618/gitblog/issues/215)--2021-07-08
+- [推荐一些我一直关注的觉得不错的和 Python 相关的独立博客](https://github.com/yihong0618/gitblog/issues/195)--2020-11-20
+- [我转行程序员的经历](https://github.com/yihong0618/gitblog/issues/186)--2020-09-13
+<details><summary>显示更多</summary>
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218153908353.png)
+- [做减法](https://github.com/yihong0618/gitblog/issues/148)--2020-04-16
+- [少说，多做，](https://github.com/yihong0618/gitblog/issues/112)--2020-02-13
+- [刷完了《东京男子图鉴》](https://github.com/yihong0618/gitblog/issues/107)--2020-01-28
+- [蛋疼](https://github.com/yihong0618/gitblog/issues/55)--2019-10-04
+- [编程的一些心得](https://github.com/yihong0618/gitblog/issues/53)--2019-10-04
+- [一些心得](https://github.com/yihong0618/gitblog/issues/37)--2019-09-22
+- [王兴的饭否](https://github.com/yihong0618/gitblog/issues/3)--2019-07-20
+- [今天看到的一些话](https://github.com/yihong0618/gitblog/issues/2)--2019-07-19
+</details>
 
-设置发布来源为 gh-pages branch，稍等片刻你就可以通过类似 `https://<用户名>.github.io/Blog-With-GitHub-Boilerplate` 这样的链接访问你的网站了。
+## 工作
+- [经历了人生体验最棒的一次面试](https://github.com/yihong0618/gitblog/issues/228)--2021-12-06
+- [沮丧](https://github.com/yihong0618/gitblog/issues/203)--2021-01-25
+- [心情不是很好的。](https://github.com/yihong0618/gitblog/issues/176)--2020-08-19
+- [最近在家，状态很不好。](https://github.com/yihong0618/gitblog/issues/165)--2020-06-09
+- [认真工作](https://github.com/yihong0618/gitblog/issues/161)--2020-05-29
+<details><summary>显示更多</summary>
 
-## 第二步：为仓库添加一个 token
+- [想要工资有些提升](https://github.com/yihong0618/gitblog/issues/155)--2020-05-12
+- [终于上班了，开心](https://github.com/yihong0618/gitblog/issues/153)--2020-05-06
+- [第一次团建](https://github.com/yihong0618/gitblog/issues/150)--2020-04-25
+- [复工第一天](https://github.com/yihong0618/gitblog/issues/128)--2020-03-04
+- [凡事有交代 件件有着落 事事有回音](https://github.com/yihong0618/gitblog/issues/118)--2020-02-20
+- [在家办公](https://github.com/yihong0618/gitblog/issues/113)--2020-02-14
+- [遇到棘手问题前，别慌！先google, 再仔细看](https://github.com/yihong0618/gitblog/issues/101)--2020-01-14
+- [最近开始忙起来了](https://github.com/yihong0618/gitblog/issues/91)--2019-12-19
+- [还有10分钟下班](https://github.com/yihong0618/gitblog/issues/84)--2019-11-29
+- [轻松了几天，新需求要来了](https://github.com/yihong0618/gitblog/issues/77)--2019-11-13
+- [需要新的开始](https://github.com/yihong0618/gitblog/issues/71)--2019-10-29
+- [工作总结专用贴](https://github.com/yihong0618/gitblog/issues/69)--2019-10-21
+- [Anyway 加油干吧](https://github.com/yihong0618/gitblog/issues/65)--2019-10-15
+- [新工作遇到的坑](https://github.com/yihong0618/gitblog/issues/62)--2019-10-10
+- [工作第二天。](https://github.com/yihong0618/gitblog/issues/61)--2019-10-09
+- [今天新公司上班第一天，加油](https://github.com/yihong0618/gitblog/issues/60)--2019-10-08
+- [明天进入新的公司了](https://github.com/yihong0618/gitblog/issues/58)--2019-10-07
+- [端正工作态度好好写代码](https://github.com/yihong0618/gitblog/issues/48)--2019-10-04
+- [终于从这家公司离职了，开心](https://github.com/yihong0618/gitblog/issues/42)--2019-09-29
+- [明天最后一天了，一些心得](https://github.com/yihong0618/gitblog/issues/41)--2019-09-28
+- [尝试不玩手机](https://github.com/yihong0618/gitblog/issues/40)--2019-09-27
+- [剩下的日子和要交接的工作](https://github.com/yihong0618/gitblog/issues/35)--2019-09-19
+- [定日子了](https://github.com/yihong0618/gitblog/issues/33)--2019-09-16
+- [拿到offer了](https://github.com/yihong0618/gitblog/issues/30)--2019-09-06
+- [快点离开这个地方](https://github.com/yihong0618/gitblog/issues/24)--2019-08-19
+- [Do my best and fuck off](https://github.com/yihong0618/gitblog/issues/17)--2019-08-06
+- [跳槽](https://github.com/yihong0618/gitblog/issues/12)--2019-07-31
+- [说说工作](https://github.com/yihong0618/gitblog/issues/7)--2019-07-25
+</details>
 
-为了让 GitHub Actions 可以自动更新你的网站，需要添加一个 Token。点击[这个网址](https://github.com/settings/tokens)，点击右上角的 Generate new token，起个名字并勾选 repo 复选框：
+## 开发笔记
+- [running_page 开源一周年的总结](https://github.com/yihong0618/gitblog/issues/220)--2021-09-27
+- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198)--2020-12-23
+- [如何获取悦跑圈数据](https://github.com/yihong0618/gitblog/issues/197)--2020-12-18
+- [vscode-gcores开发笔记3](https://github.com/yihong0618/gitblog/issues/115)--2020-02-18
+- [vscode-gcores 开发笔记 2](https://github.com/yihong0618/gitblog/issues/111)--2020-02-11
+<details><summary>显示更多</summary>
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218154358592.png)
+- [vscode-gcores开发笔记1](https://github.com/yihong0618/gitblog/issues/102)--2020-01-19
+</details>
 
-点击页脚的 Generate Token，新的 token 会显示出来，把它复制下来，保存好。关了这个页面你就永远也看不到它了。
+## 技术文章
+- [从 Rich 作者的一个问题说起](https://github.com/yihong0618/gitblog/issues/212)--2021-06-21
+- [如何用一个仓库记录自己的一年](https://github.com/yihong0618/gitblog/issues/209)--2021-05-28
+- [力扣的程序是如何运行的](https://github.com/yihong0618/gitblog/issues/205)--2021-02-01
+- [如何获取 keep 跑步数据](https://github.com/yihong0618/gitblog/issues/191)--2020-10-22
+- [决定把gitblog和kb结合起来](https://github.com/yihong0618/gitblog/issues/189)--2020-09-23
+<details><summary>显示更多</summary>
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218154525529.png)
+- [程序员跑步指南](https://github.com/yihong0618/gitblog/issues/178)--2020-08-23
+- [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)--2020-08-20
+- [机器学习存档](https://github.com/yihong0618/gitblog/issues/158)--2020-05-21
+- [异步存档](https://github.com/yihong0618/gitblog/issues/104)--2020-01-22
+- [这几天的一些心得](https://github.com/yihong0618/gitblog/issues/90)--2019-12-15
+- [算法存档](https://github.com/yihong0618/gitblog/issues/88)--2019-12-11
+- [Git 存档](https://github.com/yihong0618/gitblog/issues/86)--2019-12-04
+- [docker存档](https://github.com/yihong0618/gitblog/issues/81)--2019-11-20
+- [前端存档](https://github.com/yihong0618/gitblog/issues/80)--2019-11-19
+- [psql 存档](https://github.com/yihong0618/gitblog/issues/63)--2019-10-11
+- [利用github issues加上github webhook写博客自动化](https://github.com/yihong0618/gitblog/issues/45)--2019-10-02
+- [Python存档](https://github.com/yihong0618/gitblog/issues/43)--2019-09-30
+- [工具小技巧](https://github.com/yihong0618/gitblog/issues/36)--2019-09-20
+- [CSS存档](https://github.com/yihong0618/gitblog/issues/21)--2019-08-09
+- [MongoDB存档](https://github.com/yihong0618/gitblog/issues/20)--2019-08-09
+- [JS存档](https://github.com/yihong0618/gitblog/issues/18)--2019-08-07
+- [ES存档](https://github.com/yihong0618/gitblog/issues/15)--2019-08-02
+- [正则表达式](https://github.com/yihong0618/gitblog/issues/11)--2019-07-31
+- [踩坑小记](https://github.com/yihong0618/gitblog/issues/10)--2019-07-28
+- [MySQL存档](https://github.com/yihong0618/gitblog/issues/9)--2019-07-27
+- [Linux存档](https://github.com/yihong0618/gitblog/issues/8)--2019-07-26
+</details>
 
-回到仓库中，进入 Setting，坐标找到 Secrets 选项卡，新建一个名叫 PERSONAL_TOKEN 的 secret：
+## 日记
+- [有趣与无趣](https://github.com/yihong0618/gitblog/issues/221)--2021-10-13
+- [一点思考](https://github.com/yihong0618/gitblog/issues/218)--2021-08-19
+- [朋友圈](https://github.com/yihong0618/gitblog/issues/216)--2021-08-03
+- [新年碎碎念](https://github.com/yihong0618/gitblog/issues/201)--2021-01-08
+- [生的对立面](https://github.com/yihong0618/gitblog/issues/196)--2020-12-10
+<details><summary>显示更多</summary>
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218154724925.png)
+- [感冒了，真是难受](https://github.com/yihong0618/gitblog/issues/188)--2020-09-21
+- [要怎样才能过好一生？](https://github.com/yihong0618/gitblog/issues/166)--2020-06-14
+- [还有一个小时31岁了](https://github.com/yihong0618/gitblog/issues/133)--2020-03-14
+- [又是新的一天，一动没动写了4个小时代码](https://github.com/yihong0618/gitblog/issues/103)--2020-01-19
+- [累了，想休息一天](https://github.com/yihong0618/gitblog/issues/96)--2019-12-28
+- [圣诞节](https://github.com/yihong0618/gitblog/issues/95)--2019-12-25
+- [12月差不多结束了。](https://github.com/yihong0618/gitblog/issues/94)--2019-12-22
+- [一天天](https://github.com/yihong0618/gitblog/issues/93)--2019-12-22
+- [我他妈服了。。。](https://github.com/yihong0618/gitblog/issues/89)--2019-12-14
+- [新的一周，不是新的开始。](https://github.com/yihong0618/gitblog/issues/83)--2019-11-25
+- [完成了北京马拉松](https://github.com/yihong0618/gitblog/issues/73)--2019-11-04
+- [懈怠了，可不是好事](https://github.com/yihong0618/gitblog/issues/70)--2019-10-24
+- [总是在不知不觉间的](https://github.com/yihong0618/gitblog/issues/68)--2019-10-20
+- [这个Issue用来测试](https://github.com/yihong0618/gitblog/issues/67)--2019-10-17
+- [最近少了一些目标](https://github.com/yihong0618/gitblog/issues/66)--2019-10-17
+- [去盘锦跑了个半马。](https://github.com/yihong0618/gitblog/issues/64)--2019-10-13
+- [流水账](https://github.com/yihong0618/gitblog/issues/57)--2019-10-06
+- [十一生病了](https://github.com/yihong0618/gitblog/issues/56)--2019-10-05
+- [桌子好乱啊，床也好乱啊](https://github.com/yihong0618/gitblog/issues/54)--2019-10-04
+- [第五十篇，算是测试](https://github.com/yihong0618/gitblog/issues/50)--2019-10-04
+- [忘带电源了](https://github.com/yihong0618/gitblog/issues/47)--2019-10-04
+- [休息日](https://github.com/yihong0618/gitblog/issues/46)--2019-10-03
+- [坐在星巴克里](https://github.com/yihong0618/gitblog/issues/39)--2019-09-25
+- [从这一刻开始，从下一刻放弃](https://github.com/yihong0618/gitblog/issues/38)--2019-09-24
+- [冒泡的声音](https://github.com/yihong0618/gitblog/issues/34)--2019-09-17
+- [自律](https://github.com/yihong0618/gitblog/issues/32)--2019-09-11
+- [关于成长](https://github.com/yihong0618/gitblog/issues/31)--2019-09-06
+- [总结很重要啊](https://github.com/yihong0618/gitblog/issues/28)--2019-08-29
+- [懈怠](https://github.com/yihong0618/gitblog/issues/27)--2019-08-24
+- [一篇文章，一首诗，以及自己](https://github.com/yihong0618/gitblog/issues/26)--2019-08-21
+- [重来](https://github.com/yihong0618/gitblog/issues/25)--2019-08-20
+- [雨中奔跑](https://github.com/yihong0618/gitblog/issues/22)--2019-08-11
+- [手机坏了](https://github.com/yihong0618/gitblog/issues/19)--2019-08-08
+- [普通的一天，不普通的一天](https://github.com/yihong0618/gitblog/issues/16)--2019-08-03
+- [终不似，少年游](https://github.com/yihong0618/gitblog/issues/6)--2019-07-24
+- [每天留下点什么](https://github.com/yihong0618/gitblog/issues/4)--2019-07-21
+- [Github更持久些](https://github.com/yihong0618/gitblog/issues/1)--2019-07-18
+</details>
 
-**💡 从这里开始我们会对仓库的文件做一些修改，如果你电脑上有安装 Git，可以把仓库 clone 到本地，完成修改后提交并 push 回去；如果没有安装，可以直接在浏览器中编辑文件。**
+## 生活
+- [年终岁尾](https://github.com/yihong0618/gitblog/issues/230)--2022-01-28
+- [一件小事](https://github.com/yihong0618/gitblog/issues/214)--2021-07-05
+- [逃离](https://github.com/yihong0618/gitblog/issues/208)--2021-05-12
+- [近况](https://github.com/yihong0618/gitblog/issues/207)--2021-03-25
+- [年过完了](https://github.com/yihong0618/gitblog/issues/206)--2021-02-22
+<details><summary>显示更多</summary>
 
-## 第三步：尝试修改一下网站设置
+- [记住这一刻](https://github.com/yihong0618/gitblog/issues/199)--2020-12-29
+- [普通人和天才之间的巨大鸿沟](https://github.com/yihong0618/gitblog/issues/185)--2020-09-08
+- [眼见何事，情系何处，身在何方，心思何人](https://github.com/yihong0618/gitblog/issues/179)--2020-08-26
+- [迷茫，又一次重新学日语](https://github.com/yihong0618/gitblog/issues/172)--2020-08-04
+- [心态发生了好多转变](https://github.com/yihong0618/gitblog/issues/170)--2020-07-22
+- [既然注定孤独，就孤独吧](https://github.com/yihong0618/gitblog/issues/169)--2020-07-11
+- [振作起来，快乐生活](https://github.com/yihong0618/gitblog/issues/162)--2020-06-03
+- [累](https://github.com/yihong0618/gitblog/issues/157)--2020-05-16
+- [过日子](https://github.com/yihong0618/gitblog/issues/156)--2020-05-14
+- [减肥](https://github.com/yihong0618/gitblog/issues/143)--2020-03-28
+- [31岁，加法与减法](https://github.com/yihong0618/gitblog/issues/134)--2020-03-15
+- [一下午刷了一遍《恶意》](https://github.com/yihong0618/gitblog/issues/129)--2020-03-08
+- [闭嘴](https://github.com/yihong0618/gitblog/issues/124)--2020-02-27
+- [今天看了个电影《入侵脑细胞》](https://github.com/yihong0618/gitblog/issues/122)--2020-02-23
+- [媳妇生病了，心疼](https://github.com/yihong0618/gitblog/issues/87)--2019-12-05
+- [明天小十一就2岁了](https://github.com/yihong0618/gitblog/issues/75)--2019-11-09
+</details>
 
->新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：
->
->![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191219104540016.png)
->
->如果出现了以下提示，点击 "I understand my workflows, go ahead and run them".
->
->![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/enable-action.png)
+## 精进计划
+- [修炼内功，最近在刷《SICP》](https://github.com/yihong0618/gitblog/issues/163)--2020-06-04
+- [人和人之家的差距太大了](https://github.com/yihong0618/gitblog/issues/147)--2020-04-13
+- [我不服输](https://github.com/yihong0618/gitblog/issues/79)--2019-11-16
+- [一定要摆脱撞大运编程](https://github.com/yihong0618/gitblog/issues/78)--2019-11-15
+- [又要开始了](https://github.com/yihong0618/gitblog/issues/76)--2019-11-11
+## 读书笔记
+- [《Vim实用技巧》读书笔记](https://github.com/yihong0618/gitblog/issues/74)--2019-11-05
+- [计算机组成要素读书笔记](https://github.com/yihong0618/gitblog/issues/52)--2019-10-04
+- [《快乐的Linux命令行》读书笔记](https://github.com/yihong0618/gitblog/issues/23)--2019-08-12
+- [MySQL是怎样跑起来的读书笔记](https://github.com/yihong0618/gitblog/issues/13)--2019-08-01
+## TODO
+TODO list from [接下来要写的东西](https://github.com/yihong0618/gitblog/issues/219)--4 jobs to do--3 jobs done
+- [x] running_page 一周年总结
+- [x] 机核文章
+- [x] 选择
+- [ ] django shell 的运行原理
+- [ ] 推荐两个 YouTube 程序员
+- [ ] 我跑步听的播客
+- [ ] 该离开了
 
-回到仓库首页，点击 conf.py 文件，然后点击编辑按钮：
+TODO list from [学习生活上的计划](https://github.com/yihong0618/gitblog/issues/181)--3 jobs to do--1 jobs done
+- [x] 背标日初级下的单词
+- [ ] 月跑量突破250 km
+- [ ] 瘦到130斤
+- [ ] 年底考个日语 3 级
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218155128999.png)
-
-1. 为你的网站起个名字，填写到 `site_name` 这里
-2. 修改 `author`，`email`，`description` 等选项为你的内容
-3. 其它选项也可以随意修改（暂时不要修改 `site_prefix` 选项）
-
-点击页脚的 Commit changes，稍等片刻再访问 `https://<用户名>.github.io/Blog-With-GitHub-Boilerplate` 看是不是已经更新了。如果没有，请点击仓库标题下方的 Actions 按钮，在里面查看自动构建状态。
-
-### 第四步：尝试发布新的内容
-
-点击进入仓库的 src 文件夹，并点击 Create new file
-
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218155835654.png)
-
-填写文件名以及内容。文件名可以起 `我的第一篇文章.md`，内容可以参考这样的：
-
-```
----
-layout: post
-title: 我的第一篇文章
-slug: my-first-awesome-post
-date: 2019-12-17 20:34
-status: publish
-author: <填写你的名字>
-categories: 
-  - 默认分类
-tags: 
-  - 博客
-  - GitHub
-excerpt: Hello World!
----
-
-这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
-```
-
-点击页脚的 Commit new file，稍等片刻再访问 `https://<用户名>.github.io/Blog-With-GitHub-Boilerplate`，可见新文章已经发布了！
-
-## 第五步：使用 jsDelivr 作为博客的 CDN 服务
-
-回到仓库首页，点击 conf.py 文件，然后点击编辑按钮。修改 `enable_jsdelivr` 如下：
-
-```
-enable_jsdelivr = {
-    "enabled": True,
-    "repo": "<你的用户名>/Blog-With-GitHub-Boilerplate@gh-pages"
-}
-```
-
-点击 Commit changes。然后修改你刚才添加的文章，在里面插入一张仓库中的图片：
-
-```
-这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
-
-![幽灵公主剧照](./images/Mononoke_Hime.jpg)
-```
-
-发布后稍等片刻再访问你的网站，此时网站的图片都通过 jsDelivr 传输的。不信的话在图片上右键选择「在新标签页中打开图片」，看链接是否以 `cdn.jsdelivr.net` 开头。
-
-要插入你自己的图片，请把图片上传到 `src/images` 文件夹里，然后在文章中使用 Markdown 语法引用即可。
-
-## 第六步：进行更多的自定义与创作
-
-经过以上的步骤你已经学会了自定义网站、添加文章与修改文章。接下来就该你自由发挥了。仓库中 conf.py 里面的内容都可以自定义修改，特别要注意格式，比如引号要使用英文引号之类的。针对网站的设置项请参考 [Maverick/README.md](https://github.com/AlanDecode/Maverick/blob/master/README.md)。
-
-仓库自带的 about.md 与 Typography 都可改可删，全看你。
-
-仓库`src/static` 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 `site_logo` 为 `"${static_prefix}新的logo.png"` 即可。
-
-现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 `site_prefix` 设置为 `"/<新的仓库名>/"`，并且对应修改 `enable_jsdelivr ` 选项的内容。
-
-如果要将仓库名修改为 `<用户名>.github.io` 的形式，请看 [About-User-Pages](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/blob/source/About-User-Pages.md)。
-
-## 第七步：在本地进行创作
-
-你可以把仓库 clone 到电脑上，修改后再将修改 push 回去。如果你的电脑上有安装 `make`，则这个过程可以方便一些：
-
-升级 Maverick：
-
-```bash
-make mvrk
-```
-
-升级主题：
-
-```bash
-make theme
-```
-
-修改站点：
-
-```bash
-make msg="Add some change" site
-```
-
-> **关于如何在电脑上使用 Git**
->
-> 如果你之前没有使用过 GitHub，那么需要进行一定的设置。如果你的电脑是 macOS 或者 Linux，git 可能是默认安装在电脑上的；如果是 Windows，则需要到[这里](https://git-scm.com/downloads)下载合适的 Git 安装到电脑上。记得安装时选中将  git 添加到 PATH。
->
-> 文件管理器中右键，点击 Git Bash Here，在弹出的窗口中输入：
->
-> ```
-> git config --global user.name "你的GitHub用户名"
-> git config --global user.email "你的GitHub邮箱"
-> git config --global credential.helper store
-> ```
->
-> 之后到仓库右上角的 Clone or download 那里，复制仓库链接（建议使用 HTTPS）：
->
-> ![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218201359204.png)
->
-> 在命令行中输入：
->
-> ```
-> git clone <仓库链接>
-> ```
->
-> 若需要输入用户名密码则输入就行。这样仓库就克隆到了本地。在仓库中进行修改后，这样提交文件：
->
-> ```
-> # cd 到仓库文件夹后
-> 
-> git add .
-> git commit -m "添加修改"
-> git push
-> ```
->
-> 这样本地的修改就推送到了 GitHub。
-
-## 第八步：绑定自定义域名
-
-如果你有自己的域名，请在域名解析商那里将域名 CNAME 设置为 `<用户名>.github.io`，然后回到仓库，在 `src/static` 文件夹中添加一个名叫 CNAME 的文件，内容填写你自己的域名。然后在 conf.py 中修改 `site_prefix` 为 `"/"`。稍等片刻，你的网站就能通过你的域名访问了。
-
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+TODO list from [程序上新的计划](https://github.com/yihong0618/gitblog/issues/180)--2 jobs to do--8 jobs done
+- [x] 完善 gitblog 的 action 让用户更少更改
+- [x] 给 gitblog 这个增加todo list 功能(这个就是测试）
+- [x] 给 running page 增加排序
+- [x] 完善 runtastic 增加一个参数
+- [x] 尝试搞定 vscode-leetcode 的cn第三方登陆
+- [x] 研究自动截图发邮件功能（工作上）
+- [x] 把 running page 变得更通用(自动生成的js可以用gpx生成)
+- [x] 搞定 gcores 日历
+- [ ] 继续给大连咖啡做贡献
+- [ ] 学点底层
 
